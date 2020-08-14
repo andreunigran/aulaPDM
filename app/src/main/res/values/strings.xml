@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="label_nome">Entre com seu nome</string>
+    <string name="nome_botao_Ok">Ok</string>
+    <string name="vazio"></string>
+
+</resources>
