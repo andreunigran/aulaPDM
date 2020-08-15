@@ -1,6 +1,7 @@
 package br.unigran.app;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(getApplicationContext(),"Olá "+campoTexto.getText(),Toast.LENGTH_LONG).show();
                     }
+
                 }
         );
         alerta.setNegativeButton("Cancekar",null);
@@ -54,6 +56,12 @@ public class MainActivity extends AppCompatActivity {
         //crio o dialog
         AlertDialog dialog =alerta.create();
        dialog.show();// chamo a msg
+
+    }
+
+    public void segundaTela(View view){
+        Intent it = new Intent(MainActivity.this,SegundaActivity.class);
+        startActivity(it);
 
     }
 }

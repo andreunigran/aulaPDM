@@ -62,4 +62,17 @@
         android:text="Button"
         app:layout_constraintStart_toEndOf="@+id/buttonOk2"
         app:layout_constraintTop_toBottomOf="@+id/etnome" />
+
+    <Button
+        android:id="@+id/segundaTela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="145dp"
+        android:onClick="segundaTela"
+        android:text="Segunda Tela"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOk2" />
 </android.support.constraint.ConstraintLayout>
