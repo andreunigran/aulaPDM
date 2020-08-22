@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void segundaTela(View view){
         Intent it = new Intent(MainActivity.this,SegundaActivity.class);
+        it.putExtra("mensagem", "Mensagem da primeira tela");//exemplo de envio de dados para proxima activy(tela)
         startActivity(it);
 
     }
